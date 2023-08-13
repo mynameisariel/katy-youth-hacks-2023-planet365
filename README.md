@@ -2,7 +2,7 @@
 
 ## Inspiration
 
-This is the app that was created for the NorcalHacks EduSands Hackathon. This project was inspired by the idea that the world can be changed through consistent, daily habits. As a young adult who wants to better the world for the future generations, climate change and the environment is one of the most prominent issues. This problem encompasses both social aspects and environmental aspects. The app I created focuses on society's daily lifestyle and attempts to address the problems in people's everyday actions. It is inspired loosely by habit tracker apps and mindfulness apps such as Mindset and Todoist.
+This is the web app that was created for the 2023 Katy Youth Hacks Hackathon. This project was inspired by the idea that the world can be changed through consistent, daily habits. As a young adult who wants to better the world for the future generations, climate change and the environment is one of the most prominent issues. This problem encompasses the theme of sustainability presented by the hackthon. In order to be successful in changing the world, our actions must not only be good for the environment, but very sustainable longterm. The app I created focuses on society's daily lifestyle and attempts to address the problems in people's everyday actions. Through these small actions, the user would be able to build a more sustainable lifestyle that can make a big impact. The web app is inspired loosely by habit tracker apps and mindfulness apps such as Mindset and Todoist.
 
 ## What it does
 
@@ -23,22 +23,24 @@ There are two main parts of this app:
 
 ## How I built it
 
-This app was build with the [Flutter](https://flutter.dev/?gclid=CjwKCAjw8ZKmBhArEiwAspcJ7jwlAdEnxVp5-90ODMhUwawUXVW9voYbsZU03B1jkuA5hy-L7oBsJRoChZUQAvD_BwE&gclsrc=aw.ds) framework. It was launched using [Firebase](https://firebase.google.com/?gad=1&gclid=CjwKCAjw8ZKmBhArEiwAspcJ7sh9y9FZvyDRZqst6ZYj2FhXlrtzS_Jzt4dkYO7LOrbPdY0Jtbfp3RoCXhgQAvD_BwE&gclsrc=aw.ds).
+Planet365 was built with the [Flutter](https://flutter.dev/?gclid=CjwKCAjw8ZKmBhArEiwAspcJ7jwlAdEnxVp5-90ODMhUwawUXVW9voYbsZU03B1jkuA5hy-L7oBsJRoChZUQAvD_BwE&gclsrc=aw.ds) framework. It was launched using [Firebase](https://firebase.google.com/?gad=1&gclid=CjwKCAjw8ZKmBhArEiwAspcJ7sh9y9FZvyDRZqst6ZYj2FhXlrtzS_Jzt4dkYO7LOrbPdY0Jtbfp3RoCXhgQAvD_BwE&gclsrc=aw.ds). The IDE that I used to develop it is [Visual Studio Code](https://code.visualstudio.com/).
 
-Going into this hackathon, I was a complete beginner with the Flutter toolkit as well as the language used by it called Dart. Using online tutorials and experimenting on my own, I was able to familiarize with the various functionalities of this framework. This project was successful thanks to a number of resources:
+Going into this hackathon, I was a complete beginner with the Flutter toolkit as well as the language used by it called Dart. A couple days before the hackathon started, using online tutorials and experimenting on my own, I was able to familiarize with the various functionalities of this framework. This project was successful thanks to a number of resources:
 
 - https://www.youtube.com/@flutterdev
 - https://www.youtube.com/@academind
 - https://api.flutter.dev/index.html
 - https://www.youtube.com/@FlutterMapp
 
+The main code that I created is located in the "lib" folder of the repository. To run this project's code, you must install the Flutter framework and library onto your computer, and also get the Flutter extension on VSCode. This is a useful video I used for installing Flutter: https://www.youtube.com/watch?v=VFDbZk2xhO4.
+
 ## Challenges I ran into
 
 There were definitely a variety of challenges that occurred as I was creating this project.
 
-- **Timeline**: Due to the fact that I found out about this hackathon late, I was not able to spend as much time as I would have liked on this project. As a result, there are some features from my initial plan that I did not have time to add. I was also challenged by the changing deadlines on Devpost. The initial deadline was July 30th 12AM, so it was surprising and shocking when it changed to July 29th 12 AM.
 - **Launching the web app**: Being my first ever web app that I developed, I was confused on how I could launch and publish it for the public to view. Thankfully many resources online pointed me towards Firebase. However, installing the required toolkits to launch it successfully was still a bit of a struggle.
 - **Consistency between devices**: Due to the fact that I primarily designed my app for web use, it was definitely difficult to transfer the same and design to a different device. On different screens sizes, my app will appear different.
+- **User Interface**: I wanted to create a user friendly interface that was both informative, easy to use, and enjoyable to nevaigate. However, I found that some of my original design ideas were difficult to implement with my limited knowledge of the Flutter framework
 
 ## Accomplishments that I'm proud of
 
@@ -50,16 +52,16 @@ In general, I am quite proud of completing this project for my first hackathon. 
 
 ## What I learned
 
-I learned a lot about coding with the Flutter framework as well as launching a web app to public. This experience really gave me lots of insight on developing apps in a more professional way. Because of this, I definitely want to build more apps in the future and expand my reach to mobile apps. I also learned about productivity and time management while working on my project, Time management was one big challenge that I ran into, so I learned that I should definitely sign up for hackathons earlier in the future.
+I learned a lot about coding with the Flutter framework as well as launching a web app to public. This experience really gave me lots of insight on developing apps in a more professional way. Because of this, I definitely want to build more apps in the future and expand my reach to mobile apps. I also learned about productivity and time management while working on my project,
 
 ## What's next for Planet365
 
 Planet365 still has many features that are yet to be developed. The following are features that I would love to implement for my app in the future:
 
-- **Tracking accomplishments**: The ability for the user to track their accomplishments (or keep a streak) for a more rewarding experience and to further motivate them to take action.
+- **Tracking accomplishments**: The ability for the user to track their accomplishments (or keep a streak) for a more rewarding experience and to further motivate them to take action. Currently, the web app is able to allow the user to check off their action each day, however there is no feature to keep a streak or see their progress. A function to do this would take Planet365 to another level and help users stay motivated to continue their sustainable lifestyle.
 - **More LEARN pages**: I have many more ideas on topics to add to the LEARN page to help educate the user and raise awareness on climate change issues.
-- **COMMUNITY page**: It would be amazing if Planet365 had a community page so that users could come together and talk about issues. This would further cultivate action and planning to better the planet.
-- **Mobile development**: I would love for Planet365 to be an app that would work on mobile devices, not just the computer. I would also have to change the interface a little to fit the needs and the sizes of a narrow mobile screen.
+- **COMMUNITY page**: It would be amazing if Planet365 had a community page so that users could come together and talk about issues of sustainability. This would further cultivate action and planning to better the planet.
+- **Mobile development and layouts on different devices**: I would love for Planet365 to be an app that would work on mobile devices, not just the computer. I would also have to change the interface a little to fit the needs and the sizes of a narrow mobile screen. Currently, the app is not very flexible to be accessed through different sizes of devices, so an important step for the future would be to program more diversity in the interface of the app to allow the design to work with different screen sizes. Additionally, it would be incredibly rewarding to see Planet365 launched as a mobile app instead of a web app so it can be even more easy for users to use.
 
 ## Conclusion
 

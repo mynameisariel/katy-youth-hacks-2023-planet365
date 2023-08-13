@@ -25,6 +25,12 @@ There are two main parts of this app:
 
 For the best experience, please ensure that you are using a standard monitor or computer screen (landscape rectangular). The web app is designed to fit only on landscape computer browsers. Please access it through the link https://planet365-katy-youthhacks-2023.web.app.
 
+## Navigating the Project's Folders
+
+I have uploaded my whole project directory onto the github repository. Due to the immense size of the project, it may be difficult to understand the different components. The majority of the folders and files are ones that are provided by the Flutter framework by default when creating a new project.
+
+The files that I mainly edited are located in the "lib" folder. I also added the "images" folder and edited the "pubspec.yaml" file. The folders other than this are generated to run the Flutter project, as well as to launch the web app on Firebase.
+
 ## How I built it
 
 Planet365 was built with the [Flutter](https://flutter.dev/?gclid=CjwKCAjw8ZKmBhArEiwAspcJ7jwlAdEnxVp5-90ODMhUwawUXVW9voYbsZU03B1jkuA5hy-L7oBsJRoChZUQAvD_BwE&gclsrc=aw.ds) framework. It was launched using [Firebase](https://firebase.google.com/?gad=1&gclid=CjwKCAjw8ZKmBhArEiwAspcJ7sh9y9FZvyDRZqst6ZYj2FhXlrtzS_Jzt4dkYO7LOrbPdY0Jtbfp3RoCXhgQAvD_BwE&gclsrc=aw.ds). The IDE that I used to develop it is [Visual Studio Code](https://code.visualstudio.com/).

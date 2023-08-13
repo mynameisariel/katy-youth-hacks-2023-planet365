@@ -112,15 +112,15 @@ class _GenderGapPageState extends State<GenderGapPage> {
                   text: """
           In low-income countries, women shoulder a disproportional burden during climate crises. They manage crucial tasks like water and food collection. As resources dwindle, women's workloads increase, hampering their education and economic prospects. Disaster-stricken times also expose women to higher risks of violence.
 
-          Climate events disrupt education, particularly for girls, affecting attendance and retention. Limited schooling hinders women's access to better jobs and climate resilience initiatives. In rural areas hit hardest by climate change, women in sectors like agriculture face precarious livelihoods. They constitute 43% of the agricultural workforce in developing nations, playing a key role in food security. Climate risks lead to income loss, deepening poverty.
+          Climate events disrupt education, particularly for girls, affecting attendance and retention. Limited schooling hinders women's access to better jobs and climate resilience initiatives. In rural areas hit hardest by climate change, women in sectors like agriculture face precarious livelihoods. They constitute <b>43% of the agricultural workforce</b> in developing nations, playing a key role in food security. Climate risks lead to income loss, deepening poverty.
 
-          Tackling gender inequality in climate change means recognizing these issues' complexity. Empowering women in decision-making and climate actions yields fairer outcomes. Enabling access to education and economic opportunities enhances women's adaptability. Supporting gender equality policies fosters a more sustainable and resilient future for all.
+          Tackling gender inequality in climate change means recognizing these issues' complexity. Empowering women in decision-making and climate actions yields fairer outcomes. Enabling access to education and economic opportunities enhances women's adaptability. <b>Supporting gender equality policies fosters a more sustainable and resilient future for all.</b>
 
           Learn more about the issue of gender inequality and climate change on the <link href="https://unfccc.int/gender">United Nations website</link>.
                         """,
                   style: const TextStyle(
                     fontSize: 24,
-                    fontWeight: FontWeight.normal,
+                    fontWeight: FontWeight.w100,
                   ),
                   tags: {
                     'link': StyledTextActionTag(
@@ -128,6 +128,12 @@ class _GenderGapPageState extends State<GenderGapPage> {
                       style:
                           const TextStyle(decoration: TextDecoration.underline),
                     ),
+                    "b": StyledTextTag(
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    )
                   },
                 ),
               )

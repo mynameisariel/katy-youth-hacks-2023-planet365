@@ -34,15 +34,16 @@ class _PublicTransportationPageState extends State<PublicTransportationPage> {
           children: [
             Container(
               alignment: Alignment.center,
-              margin: const EdgeInsets.fromLTRB(30, 30, 30, 10),
+              margin: const EdgeInsets.fromLTRB(50, 50, 50, 10),
               child: const Text(
                 """
-            In the face of an increasingly urgent climate crisis, adopting sustainable habits has become imperative for individuals and communities alike. One impactful yet often overlooked avenue for reducing carbon emissions and promoting a more sustainable future is embracing public transportation. By making conscious choices to use buses, trains, and subways instead of personal vehicles, individuals can contribute significantly to reducing their carbon footprint and fostering positive environmental change.
+In the face of an increasingly urgent climate crisis, adopting sustainable habits has become imperative for individuals and communities alike. One impactful yet often overlooked avenue for reducing carbon emissions and promoting a more sustainable future is embracing public transportation. By making conscious choices to use buses, trains, and subways instead of personal vehicles, individuals can contribute significantly to reducing their carbon footprint and fostering positive environmental change.
             """,
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w200,
                 ),
+                textAlign: TextAlign.center,
               ),
             ),
             Row(
@@ -122,13 +123,14 @@ class _PublicTransportationPageState extends State<PublicTransportationPage> {
             ),
             Container(
               alignment: Alignment.center,
-              margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
+              margin: const EdgeInsets.fromLTRB(50, 10, 50, 10),
               child: const Text(
-                "           Embracing public transportation might seem daunting at first, but small lifestyle changes can make a significant difference. Here's how individuals can start implementing the habit of sustainable commuting:",
+                "Embracing public transportation might seem daunting at first, but small lifestyle changes can make a significant difference. Here's how individuals can start implementing the habit of sustainable commuting:",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w200,
                 ),
+                textAlign: TextAlign.center,
               ),
             ),
             Container(
@@ -144,15 +146,20 @@ class _PublicTransportationPageState extends State<PublicTransportationPage> {
               margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
               child: StyledText(
                 text: """
-1. <b>Plan Ahead:</b> Familiarize yourself with local bus and train schedules. Planning your routes in advance can help you seamlessly integrate public transportation into your daily routine.
+1. <b>Plan Ahead:</b> 
+Familiarize yourself with local bus and train schedules. Planning your routes in advance can help you seamlessly integrate public transportation into your daily routine.
 
-2. <b>Start Small:</b> Begin by using public transportation for short trips or specific days of the week. Gradually increase your usage as you become more comfortable with the system.
+2. <b>Start Small:</b> 
+Begin by using public transportation for short trips or specific days of the week. Gradually increase your usage as you become more comfortable with the system.
 
-3. <b>Explore Alternatives:</b> Consider options like biking or walking to nearby public transportation stops. This not only reduces your carbon footprint but also promotes personal health.
+3. <b>Explore Alternatives:</b>
+Consider options like biking or walking to nearby public transportation stops. This not only reduces your carbon footprint but also promotes personal health.
 
-4. <b>Use Mobile Apps:</b> Many cities offer mobile apps that provide real-time information on public transportation schedules, routes, and delays. These apps can make your transit experience more efficient and convenient.
+4. <b>Use Mobile Apps:</b>
+Many cities offer mobile apps that provide real-time information on public transportation schedules, routes, and delays. These apps can make your transit experience more efficient and convenient.
 
-5. <b>Calculate Savings:</b> Take note of the money saved by using public transportation instead of driving, and use these savings as a motivating factor.""",
+5. <b>Calculate Savings:</b>
+Take note of the money saved by using public transportation instead of driving, and use these savings as a motivating factor.""",
                 tags: {
                   'b': StyledTextTag(
                     style: const TextStyle(fontWeight: FontWeight.bold),
@@ -160,6 +167,7 @@ class _PublicTransportationPageState extends State<PublicTransportationPage> {
                 },
                 style:
                     const TextStyle(fontSize: 20, fontWeight: FontWeight.w200),
+                textAlign: TextAlign.center,
               ),
             ),
             const SizedBox(

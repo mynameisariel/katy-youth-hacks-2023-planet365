@@ -1,6 +1,8 @@
+import 'package:first_app/Learn%20Pages/food_waste_page.dart';
 import 'package:first_app/Learn%20Pages/gender_gap_page.dart';
 import 'package:first_app/Learn%20Pages/poverty_page.dart';
 import 'package:first_app/Learn%20Pages/public_transportation.dart';
+import 'package:first_app/Learn%20Pages/social_issue.dart';
 import 'package:flutter/material.dart';
 
 import 'Learn Pages/buy_in_bulk_page.dart';
@@ -157,7 +159,14 @@ class _LearnPageState extends State<LearnPage> {
               bottom: 10,
               left: 10,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const FoodWastePage(),
+                    ),
+                  );
+                },
                 style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(166, 0, 0, 0),
                     padding: const EdgeInsets.all(20)),
@@ -180,12 +189,19 @@ class _LearnPageState extends State<LearnPage> {
               bottom: 10,
               right: 10,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const SocialIssuePage(),
+                    ),
+                  );
+                },
                 style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(166, 0, 0, 0),
                     padding: const EdgeInsets.all(20)),
                 child: const Text(
-                  "How Climate Change Creates Social Inequalities",
+                  "Why is Climate Change a Social Issue?",
                   style: TextStyle(fontSize: 30),
                 ),
               ),

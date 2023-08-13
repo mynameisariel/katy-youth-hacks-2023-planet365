@@ -23,7 +23,7 @@ There are two main parts of this app:
 
 ## To Access Planet365
 
-For the best experience, please ensure that you are using a standard monitor or computer screen (landscape rectangular). The web app is designed to fit only on landscape computer browsers. Please access it through the link https://planet365-katy-youthhacks-2023.web.app.
+For the best experience, please ensure that you are using a standard monitor or computer screen (landscape rectangular). The web app is designed to fit only on landscape computer browsers. Please access it through the link https://planet365-katy-youthhacks-2023.web.app. When loading the web app on your browser, please note that the images may take a while to load.
 
 ## Navigating the Project's Folders
 

@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "fe1d60c3c5ab063ad7e27cf6fd992efb",
-"assets/AssetManifest.json": "71a53b5a7e4bcbe7e2741d2b360c5b41",
+const RESOURCES = {"assets/AssetManifest.bin": "c0f6a8b311aa8842b720b23a1d11f243",
+"assets/AssetManifest.json": "5035a23ebd9fde0c6e7addd2cbfe8a5d",
 "assets/FontManifest.json": "d58b2bdb1e47ef52e8becab0ff2b68f7",
 "assets/fonts/Lora/static/Lora-Bold.ttf": "04a54a65953cf0c6f9c2170ee70ee8b7",
 "assets/fonts/Lora/static/Lora-Medium.ttf": "4e4f1dc55a062af61b51c783c510b6ca",
@@ -19,6 +19,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "fe1d60c3c5ab063ad7e27cf6fd992efb
 "assets/images/climate-poverty.jpg": "d1a11d481cab84fa56e4f876ec0c8683",
 "assets/images/climate-refugees.jpg": "8745ea8239e86626f20604358dcf8153",
 "assets/images/flooding.jpg": "c3d4384c4f03a88877c050ab83869bef",
+"assets/images/foodwaste.jpg": "80e64d78c5c38c96a4e2a9f4ba0f7761",
 "assets/images/gender-gap.jpg": "b066539f0674bd706f366a66b03d3c7f",
 "assets/images/gender-inequality.jpg": "cea1c1dbde6d2606a071ee30b0dc50da",
 "assets/images/inequality-climate-change.jpg": "95dfd97db944e5d19bce2c9e126c035d",
@@ -34,6 +35,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "fe1d60c3c5ab063ad7e27cf6fd992efb
 "assets/images%255Cclimate-poverty.jpg": "d1a11d481cab84fa56e4f876ec0c8683",
 "assets/images%255Cclimate-refugees.jpg": "8745ea8239e86626f20604358dcf8153",
 "assets/images%255Cflooding.jpg": "c3d4384c4f03a88877c050ab83869bef",
+"assets/images%255Cfoodwaste.jpg": "80e64d78c5c38c96a4e2a9f4ba0f7761",
 "assets/images%255Cgender-gap.jpg": "b066539f0674bd706f366a66b03d3c7f",
 "assets/images%255Cgender-inequality.jpg": "cea1c1dbde6d2606a071ee30b0dc50da",
 "assets/images%255Cinequality-climate-change.jpg": "95dfd97db944e5d19bce2c9e126c035d",
@@ -59,9 +61,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "fe1d60c3c5ab063ad7e27cf6fd992efb
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "e96442684cbefe53f93104862073be2f",
-"/": "e96442684cbefe53f93104862073be2f",
-"main.dart.js": "c555cc2e8a76ac36bad9a974936d6888",
+"index.html": "0c32bffb61a5343d2b6c72a46fd1e11a",
+"/": "0c32bffb61a5343d2b6c72a46fd1e11a",
+"main.dart.js": "0396ac0fdcc5a4ab1dfe70bc3a23f6a2",
 "manifest.json": "e869b54815688c09fa7e758179288325",
 "version.json": "1babe854379db2fff661f2b30d1f1c0c"};
 // The application shell files that are downloaded before a service worker can

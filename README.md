@@ -33,7 +33,7 @@ The files that I mainly edited are located in the "lib" folder. I also added the
 
 ## How I built it
 
-Planet365 was built with the [Flutter](https://flutter.dev/?gclid=CjwKCAjw8ZKmBhArEiwAspcJ7jwlAdEnxVp5-90ODMhUwawUXVW9voYbsZU03B1jkuA5hy-L7oBsJRoChZUQAvD_BwE&gclsrc=aw.ds) framework. It was launched using [Firebase](https://firebase.google.com/?gad=1&gclid=CjwKCAjw8ZKmBhArEiwAspcJ7sh9y9FZvyDRZqst6ZYj2FhXlrtzS_Jzt4dkYO7LOrbPdY0Jtbfp3RoCXhgQAvD_BwE&gclsrc=aw.ds). The IDE that I used to develop it is [Visual Studio Code](https://code.visualstudio.com/).
+Planet365 was built with the [Flutter](https://flutter.dev/?gclid=CjwKCAjw8ZKmBhArEiwAspcJ7jwlAdEnxVp5-90ODMhUwawUXVW9voYbsZU03B1jkuA5hy-L7oBsJRoChZUQAvD_BwE&gclsrc=aw.ds) framework. It was launched using [Firebase](https://firebase.google.com/?gad=1&gclid=CjwKCAjw8ZKmBhArEiwAspcJ7sh9y9FZvyDRZqst6ZYj2FhXlrtzS_Jzt4dkYO7LOrbPdY0Jtbfp3RoCXhgQAvD_BwE&gclsrc=aw.ds). The language used by the Flutter framwork is called Dart. Firebase then uses Javascript to launch the web app. The IDE that I used to develop it is [Visual Studio Code](https://code.visualstudio.com/).
 
 Going into this hackathon, I was a complete beginner with the Flutter toolkit as well as the language used by it called Dart. A couple days before the hackathon started, using online tutorials and experimenting on my own, I was able to familiarize with the various functionalities of this framework. This project was successful thanks to a number of resources:
 

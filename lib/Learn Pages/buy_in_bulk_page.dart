@@ -171,16 +171,19 @@ While immediate savings might not be as evident as the allure of convenience pac
                         aspectRatio: 9 / 16,
                       ),
                     ),
-                    FloatingActionButton(
-                      onPressed: () => buttonCarouselController.nextPage(
-                          duration: const Duration(milliseconds: 300),
-                          curve: Curves.linear),
-                      backgroundColor: Colors.green[900],
-                      foregroundColor: Colors.green,
-                      child: const Text(
-                        '>',
-                        style: TextStyle(
-                          fontSize: 30,
+                    Positioned(
+                      bottom: 20,
+                      child: FloatingActionButton(
+                        onPressed: () => buttonCarouselController.nextPage(
+                            duration: const Duration(milliseconds: 300),
+                            curve: Curves.linear),
+                        backgroundColor: Colors.green[900],
+                        foregroundColor: Colors.green,
+                        child: const Text(
+                          '>',
+                          style: TextStyle(
+                            fontSize: 30,
+                          ),
                         ),
                       ),
                     ),

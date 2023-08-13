@@ -108,13 +108,17 @@ class _ActPageState extends State<ActPage> {
                         title: const Text(
                           "What is an Action of the Day?",
                           textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.green,
+                          ),
                         ),
                         content: Column(
                           mainAxisSize: MainAxisSize.min,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Container(
-                              padding: const EdgeInsets.all(50),
+                              padding:
+                                  const EdgeInsets.fromLTRB(50, 20, 50, 50),
                               child: const Text(
                                 "Some people believe that it's too late to fight climate change. Here at Planet365, we want to show that it is never too late to act and create change. We want to encourage people to take small actions every day that make a difference in saving our planet. Together, 365 days a year, we can raise social awareness and reduce the problems caused by climate change. Our 'Action of the Day' aims to prompt people into small, sustainable lifestyle changes that can impact the planet for the better.",
                                 style: TextStyle(fontSize: 28),
